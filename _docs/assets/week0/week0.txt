@@ -1,0 +1,1 @@
+Placeholder file to be able to create the week0 directory where attachments will be stored for use in the journal.
