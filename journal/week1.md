@@ -243,4 +243,4 @@ After setting up Docker Desktop locally after creating a DockerHub account, I do
 
 In AWS, I launced a Linux AMI EC2 with Docker installed and performed the same action as I did when I first created my DockerHub account and pulled the tutorial base image that was retagged and pushed to DockerHub. As such, I pulled the docker/getting-started image to the EC2 as part of this homework challenges, as follows:
 
-[Pulled Docker Image to EC2](https://github.com/iksvenog/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/week1/Docker-Pull-Container-on-EC2.PNG)
+![Pulled Docker Image to EC2](https://github.com/iksvenog/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/week1/Docker-Pull-Container-on-EC2.PNG)
