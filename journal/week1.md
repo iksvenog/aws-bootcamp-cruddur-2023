@@ -160,7 +160,7 @@ From the Docker documentation, [Docker Push and Tag Documentation](https://docs.
  
 I pulled the tutorial image `docker run -d -p 80:80 docker/getting-started` from Dockerhub, and then tagged the image `docker tag docker/getting-started acgecloud/docker-tutorial-acge:getting-started-v1` and pushed it `docker tag docker/getting-started acgecloud/docker-tutorial-acge:getting-started-v1` to the repository in my Dockerhub account, as follows:
 
-![Tagged and Pushed Docker Image to DockerHub]()
+![Tagged and Pushed Docker Image to DockerHub](https://github.com/iksvenog/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/week1/Homework-Challenge-Tag-and-Push.PNG)
 
 ## Use multi-stage building for a Dockerfile build
 
@@ -237,10 +237,10 @@ frontend-react-js:
 
 After setting up Docker Desktop locally after creating a DockerHub account, I downloaded the project folder from Github to my local machine to get started with this challenge. For docker compose to work, the gitpod url's will not work on the localmachine; instead  `"http://localhost:4567"` and `"http://localhost:3000"` were used as the locations on the local machine where the services could work on their respective ports. I also performed `npm install` again to ensure the configuration of the frontend and the package.json dependencies were working correctly locally. Afterwards, I ran docker comopse and ensured that Cruddur worked locally.
 
-![Docker on LocalMachine]()
+![Docker on LocalMachine](https://github.com/iksvenog/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/week1/Run-Docker-Local-Machine.PNG)
 
 ## Launch an EC2 instance that has docker installed, and pull a container to demonstrate you can run your own docker processes
 
 In AWS, I launced a Linux AMI EC2 with Docker installed and performed the same action as I did when I first created my DockerHub account and pulled the tutorial base image that was retagged and pushed to DockerHub. As such, I pulled the docker/getting-started image to the EC2 as part of this homework challenges, as follows:
 
-[Pulled Docker Image to EC2]()
+[Pulled Docker Image to EC2](https://github.com/iksvenog/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/week1/Docker-Pull-Container-on-EC2.PNG)
